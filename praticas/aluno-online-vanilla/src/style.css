@@ -126,7 +126,7 @@ footer {
   margin-bottom: 2rem;
 }
 
-@media (width >=768px) {
+@media (width: 768px) {
   main>section {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -149,7 +149,7 @@ footer {
 
   aside {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .body-login {
